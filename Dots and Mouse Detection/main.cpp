@@ -4,14 +4,14 @@
 #include <cmath>
 
 int
-    numOfDots = 1500,
-    positionsX[1500], // One for each dot
-    positionsY[1500], // One for each dot
+    numOfDots = 3000,
+    positionsX[3000], // One for each dot
+    positionsY[3000], // One for each dot
     winX = 1600,
-    winY = 1600,
+    winY = 900,
     padding = 10;
     
-sf::Color colors[1500]; // One for each dot
+sf::Color colors[3000]; // One for each dot
 
 /**
  * Generates random positions and colors
@@ -31,7 +31,7 @@ void generateDotData() {
 void drawDots(sf::RenderWindow* window) {
     sf::Vector2i mousePosition = sf::Mouse::getPosition(*window);
     int
-        r = 20,
+        r = 10,
         bufferZone = 2 * r + 5, // Diameter of dot + 5 padding
         differenceX,
         differenceY,
@@ -109,7 +109,7 @@ void renderingThread(sf::RenderWindow* window) {
 
 int main() {
     // create the window
-    sf::RenderWindow window(sf::VideoMode(winX, winY), "My window");
+    sf::RenderWindow window(sf::VideoMode(winX, winY), "Dots and Mouse Detection");
 
     // deactivate its OpenGL context
     window.setActive(false);

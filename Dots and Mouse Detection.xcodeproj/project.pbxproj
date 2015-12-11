@@ -7,21 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FD9BF8F1C192E5000106EB3 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9BF8E1C192E5000106EB3 /* ResourcePath.mm */; };
 		2FD9BF921C192E5000106EB3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9BF911C192E5000106EB3 /* main.cpp */; };
-		2FD9BF991C192E5000106EB3 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FD9BF981C192E5000106EB3 /* sansation.ttf */; };
-		2FD9BF9B1C192E5000106EB3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD9BF9A1C192E5000106EB3 /* icon.png */; };
 		2FD9BFA41C192F1400106EB3 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9BFA21C192F1400106EB3 /* utilities.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FD9BF891C192E5000106EB3 /* Dots and Mouse Detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dots and Mouse Detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD9BF8D1C192E5000106EB3 /* Dots and Mouse Detection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dots and Mouse Detection-Info.plist"; sourceTree = "<group>"; };
-		2FD9BF8E1C192E5000106EB3 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		2FD9BF901C192E5000106EB3 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		2FD9BF911C192E5000106EB3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2FD9BF981C192E5000106EB3 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		2FD9BF9A1C192E5000106EB3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		2FD9BFA21C192F1400106EB3 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
 		2FD9BFA31C192F1400106EB3 /* utilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utilities.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,10 +51,7 @@
 			children = (
 				2FD9BFA21C192F1400106EB3 /* utilities.cpp */,
 				2FD9BFA31C192F1400106EB3 /* utilities.hpp */,
-				2FD9BF8E1C192E5000106EB3 /* ResourcePath.mm */,
-				2FD9BF901C192E5000106EB3 /* ResourcePath.hpp */,
 				2FD9BF911C192E5000106EB3 /* main.cpp */,
-				2FD9BF931C192E5000106EB3 /* Resources */,
 				2FD9BF8C1C192E5000106EB3 /* Supporting Files */,
 			);
 			path = "Dots and Mouse Detection";
@@ -73,15 +63,6 @@
 				2FD9BF8D1C192E5000106EB3 /* Dots and Mouse Detection-Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2FD9BF931C192E5000106EB3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2FD9BF981C192E5000106EB3 /* sansation.ttf */,
-				2FD9BF9A1C192E5000106EB3 /* icon.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FD9BF9B1C192E5000106EB3 /* icon.png in Resources */,
-				2FD9BF991C192E5000106EB3 /* sansation.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +150,6 @@
 			files = (
 				2FD9BFA41C192F1400106EB3 /* utilities.cpp in Sources */,
 				2FD9BF921C192E5000106EB3 /* main.cpp in Sources */,
-				2FD9BF8F1C192E5000106EB3 /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +287,7 @@
 				2FD9BFA01C192E5000106EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
